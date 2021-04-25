@@ -1,0 +1,51 @@
+name: sudo
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  page_transition: ^1.1.7+6
+  double_back_to_close: ^1.0.2+mit
+  gradient_widgets: ^0.5.2
+  share: ^2.0.1
+  easy_gradient_text: ^1.0.0
+  like_button: ^2.0.1
+  flutter_spinkit: ^5.0.0
+  wallpaper_manager: ^1.0.10
+  image_gallery_saver: ^1.6.8
+  gallery_saver: ^2.0.3
+  cached_network_image: ^2.5.1
+  dio: ^3.0.10
+  url_launcher: ^6.0.2
+  flutter_cache_manager: any
+  shared_preferences: any
+  change_app_package_name: ^1.0.0
+  ms_undraw: ^2.2.0+15
+  get_storage: ^1.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+     - assets/icons/
+     - assets/images/404Error/
+     - assets/images/category/
+
+  fonts:
+     - family: pacifico
+       fonts:
+         - asset: assets/fonts/Pacifico-Regular.ttf
+     - family: iran_sans
+       fonts:
+         - asset: assets/fonts/IRAN-Sans-Regular.ttf
